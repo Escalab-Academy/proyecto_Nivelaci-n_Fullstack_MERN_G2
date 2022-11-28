@@ -90,6 +90,7 @@ li>a:hover {
 }
 
 .contain__subtitle {
+    width: 300px;
     font-size: 18px;
     font-weight: 100;
     color: var(--white);
@@ -115,3 +116,103 @@ li>a:hover {
 }
 
 /* end header */
+
+/* start section periferics */
+
+.periferics {
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contain__p--subtitle {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #6A7EB9;
+}
+
+.contain__p--title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.product {
+    margin-top: 3rem;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.card {
+    width: 220px;
+    height: 270px;
+    background: var(--gray);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 20%);
+}
+
+.card__image {
+    width: 100%;
+    height: 180px;
+}
+
+.card__body {
+    width: 100%;
+    height: 90px;
+    background: var(--lightBlue);
+}
+
+.card__b--title {
+    width: 100%;
+    text-align: center;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 20px;
+}
+
+.card__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__price {
+    color: var(--white);
+    width: 110px;
+    text-align: center;
+}
+
+.card__button--buy {
+    width: 110px;
+    height: 70px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card__button--buy:hover {
+    background: #5b81f5;
+}
+
+.icon {
+    width: 40px;
+}
+
+/* end section periferics */
