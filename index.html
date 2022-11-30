@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/modal.css">
     <link rel="stylesheet" href="src/css/thank_you_page.css">
-    <script src="src/js/main.js"></script>
     <title>Ecommerce Escalab</title>
 </head>
 
@@ -87,7 +86,7 @@
         <div class="product">
 
             <div class="card">
-                <img src="" alt="" class="card__image">
+                <img id="test" src="" alt="" class="card__image">
                 <div class="card__body">
                     <h2 class="card__b--title">Name Product</h2>
                     <div class="card__info">
@@ -252,8 +251,9 @@
     </section>
 
     <!-- modal -->
-    <div class="modal__fade">
+    <div id="modal" class="modal__fade">
         <div class="modal">
+            <img id="closeModal" src="public/assets/iconClose.png" alt="" class="modal__iconClose">
             <div class="modal__img">
                 <img src="" alt="" class="modal__img--item">
             </div>
@@ -282,6 +282,7 @@
     <div class="footer">
         <img src="public/assets/logoFooter.png" alt="" class="iconFooter">
     </div>
+    <script src="src/js/main.js" type="module"></script>
 
 </body>
 

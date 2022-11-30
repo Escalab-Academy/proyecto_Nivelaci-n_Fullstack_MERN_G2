@@ -19,9 +19,6 @@
     --gray: #D9D9D9;
 }
 
-body {
-    background: var(--darkBlue);
-}
 
 /* start navbar */
 .nav {

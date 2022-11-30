@@ -10,7 +10,8 @@
 .thank {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(232.49deg, rgba(78, 115, 223, 0.2) -12.11%, rgba(0, 0, 0, 0) 125.56%), linear-gradient(360deg, #10172A 57.23%, rgba(16, 23, 42, 0) 133.96%);
+    background: rgb(12, 18, 33);
+    background: linear-gradient(28deg, rgba(12, 18, 33, 1) 10%, rgba(32, 43, 71, 1) 38%, rgba(41, 55, 92, 1) 64%, rgba(45, 58, 93, 1) 92%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +39,9 @@
     color: var(--white);
     font-size: 1.2rem;
     margin-top: 5rem;
+    cursor: pointer;
+}
+
+.thank__button:hover {
+    box-shadow: 0 0 .5rem var(--lightBlue);
 }
