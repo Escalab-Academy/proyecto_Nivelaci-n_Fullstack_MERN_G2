@@ -1,289 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="src/css/main.css" />
+        <link rel="stylesheet" href="src/css/modal.css" />
+        <link rel="stylesheet" href="src/css/thank_you_page.css" />
+        <title>Ecommerce Escalab</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/main.css">
-    <link rel="stylesheet" href="src/css/modal.css">
-    <link rel="stylesheet" href="src/css/thank_you_page.css">
-    <title>Ecommerce Escalab</title>
-</head>
+    <body>
+        <div id="root"></div>
 
-<body>
-    <!-- Navbar -->
-    <nav class="nav">
-        <img src="public/assets/logo.png" alt="Escalab">
-        <ul>
-            <li>
-                <a href="#periferic">Perifericos</a>
-            </li>
-            <li>
-                <a href="#laptop">Laptop</a>
-            </li>
-            <li id="compras">
-                <a href="#">Carrito</a>
-                <div class="list">
-                    <div class="list__items--buy">
-                        <div class="list__item">
-                            <img src="" alt="" class="list__img">
-                            <div>
-                                <h1 class="list__title">Name Product</h1>
-                                <p class="list__price">$0,00</p>
-                            </div>
-                        </div>
-                        <div class="list__item">
-                            <img src="" alt="" class="list__img">
-                            <div>
-                                <h1 class="list__title">Name Product</h1>
-                                <p class="list__price">$0,00</p>
-                            </div>
-                        </div>
-                        <div class="list__item">
-                            <img src="" alt="" class="list__img">
-                            <div>
-                                <h1 class="list__title">Name Product</h1>
-                                <p class="list__price">$0,00</p>
-                            </div>
-                        </div>
-                        <div class="list__item">
-                            <img src="" alt="" class="list__img">
-                            <div>
-                                <h1 class="list__title">Name Product</h1>
-                                <p class="list__price">$0,00</p>
-                            </div>
-                        </div>
-                        <div class="list__item">
-                            <img src="" alt="" class="list__img">
-                            <div>
-                                <h1 class="list__title">Name Product</h1>
-                                <p class="list__price">$0,00</p>
-                            </div>
+        <!-- Navbar -->
+        <!-- Header -->
+
+        <!-- section perfiferics -->
+        <!-- <section id="periferic" class="section">
+            <h2 class="contain__p--subtitle">Productos</h2>
+            <h1 class="contain__p--title">Perifericos</h1>
+            <div class="product">
+                <div class="card">
+                    <img id="test" src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
                         </div>
                     </div>
-                    <div class="list__buttons">
-                        <button class="list__compra">Comprar</button>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </li>
-        </ul>
-    </nav>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="contain__text">
-            <h1 class="contain__title">Escalab Store</h1>
-            <p class="contain__subtitle">Venta de perifericos, equipos y mucho más.</p>
-            <a href="#" class="contain__link">Ver Productos</a>
-        </div>
-    </header>
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- section perfiferics -->
-    <section id="periferic" class="section">
-        <h2 class="contain__p--subtitle">Productos</h2>
-        <h1 class="contain__p--title">Perifericos</h1>
-        <div class="product">
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="card">
-                <img id="test" src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- section laptops -->
+        <!-- <section id="laptop" class="section">
+            <h2 class="contain__p--subtitle">Productos</h2>
+            <h1 class="contain__p--title">Laptops</h1>
+            <div class="product">
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="" class="card__image" />
+                    <div class="card__body">
+                        <h2 class="card__b--title">Name Product</h2>
+                        <div class="card__info">
+                            <p class="card__price">$0,00</p>
+                            <button class="card__button--buy">
+                                <img
+                                    src="public/assets/iconShop.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- modal -->
+        <div id="modal" class="modal__fade">
+            <div class="modal">
+                <img
+                    id="closeModal"
+                    src="public/assets/iconClose.png"
+                    alt=""
+                    class="modal__iconClose"
+                />
+                <div class="modal__img">
+                    <img src="" alt="" class="modal__img--item" />
+                </div>
+                <div class="modal__info">
+                    <h1 class="modal__title">Descripción</h1>
+                    <div>
+                        <ul>
+                            <li>Text 1</li>
+                            <li>Text 2</li>
+                            <li>Text 3</li>
+                            <li>Text 4</li>
+                        </ul>
+                    </div>
+                    <div class="modal__buttons">
+                        <button type="button" class="modal__comprar">
+                            Comprar
+                        </button>
+                        <button type="button" class="modal__carrito">
+                            Carrito
                         </button>
                     </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- section laptops -->
-    <section id="laptop" class="section">
-        <h2 class="contain__p--subtitle">Productos</h2>
-        <h1 class="contain__p--title">Laptops</h1>
-        <div class="product">
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="" alt="" class="card__image">
-                <div class="card__body">
-                    <h2 class="card__b--title">Name Product</h2>
-                    <div class="card__info">
-                        <p class="card__price">$0,00</p>
-                        <button class="card__button--buy">
-                            <img src="public/assets/iconShop.png" alt="" class="icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- modal -->
-    <div id="modal" class="modal__fade">
-        <div class="modal">
-            <img id="closeModal" src="public/assets/iconClose.png" alt="" class="modal__iconClose">
-            <div class="modal__img">
-                <img src="" alt="" class="modal__img--item">
-            </div>
-            <div class="modal__info">
-                <h1 class="modal__title">Descripción</h1>
-                <div>
-                    <ul>
-                        <li>Text 1</li>
-                        <li>Text 2</li>
-                        <li>Text 3</li>
-                        <li>Text 4</li>
-                    </ul>
-                </div>
-                <div class="modal__buttons">
-                    <button type="button" class="modal__comprar">Comprar</button>
-                    <button type="button" class="modal__carrito">Carrito</button>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="thank">
+
+        <!-- view buy -->
+
+        <!-- <div class="thank">
         <h1 class="thank__title">Gracias por tu compra</h1>
         <p class="thank__subtitle">Venta de perifericos, equipos y mucho más.</p>
         <button class="thank__button">Volver</button>
-    </div>
-    <div class="footer">
-        <img src="public/assets/logoFooter.png" alt="" class="iconFooter">
-    </div>
-    <script src="src/js/main.js" type="module"></script>
+    </div> -->
 
-</body>
+        <!-- View Buy -->
 
+        <script src="src/js/main.js" type="module"></script>
+    </body>
 </html>

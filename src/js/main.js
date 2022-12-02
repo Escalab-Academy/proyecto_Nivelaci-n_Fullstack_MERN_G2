@@ -1,11 +1,7 @@
-import { card, btnCloseModal } from "./nodes.js";
-import { openModal } from "./interactions.js"
-import { closeModal } from "./interactions.js"
+import { Home } from './interface/index.js';
 
-card.addEventListener('click', () => {
-    openModal();
-});
+const principalFunction = () => {
+    Home();
+};
 
-btnCloseModal.addEventListener('click', () => {
-    closeModal();
-});
+window.addEventListener('load', principalFunction);
