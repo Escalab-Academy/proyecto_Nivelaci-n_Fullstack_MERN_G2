@@ -9,7 +9,7 @@ const Navbar = () => {
             </li>
 
             <li>
-                <a href="#laptop">Laptop</a>
+                <a href="#pc">Laptop</a>
             </li>
 
             <li id="compras">

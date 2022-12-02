@@ -55,11 +55,13 @@ const pc = [
 const propsSections = [
     {
         title: 'Perifericos',
-        products: perifericos
+        products: perifericos,
+        target: 'periferic'
     },
     {
         title: 'Computadoras',
-        products: pc
+        products: pc,
+        target: 'pc'
     }
 ];
 

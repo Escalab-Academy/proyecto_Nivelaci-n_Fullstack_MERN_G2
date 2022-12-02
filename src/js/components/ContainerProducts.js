@@ -1,9 +1,9 @@
 // Import needed component
 import { ItemProducts } from './ItemProduct.js';
 
-const ContainerProduct = ({ title, products }) => {
+const ContainerProduct = ({ title, products, target }) => {
     return `
-    <section id="periferic" class="section">
+    <section id="${target}" class="section">
         <h2 class="contain__p--subtitle">Productos</h2>
         <h1 class="contain__p--title">${title}</h1>
         <div class="product">
