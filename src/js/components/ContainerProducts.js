@@ -2,6 +2,7 @@
 import { ItemProducts } from './ItemProduct.js';
 
 const ContainerProduct = ({ title, products, target }) => {
+
     return `
     <section id="${target}" class="section">
         <h2 class="contain__p--subtitle">Productos</h2>

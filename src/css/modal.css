@@ -106,3 +106,38 @@ ul {
     color: var(--white);
     box-shadow: 0 0 .5rem var(--lightBlue);
 }
+
+@media (max-width:688px) {
+
+    .modal {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .modal__img {
+        width: 100%;
+    }
+
+    .modal__info {
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 0;
+        width: 70%;
+    }
+
+    .modal__comprar,
+    .modal__carrito {
+        width: 90px;
+        height: 40px;
+        font-size: .8rem;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    ul>li {
+        background: none;
+    }
+
+}
